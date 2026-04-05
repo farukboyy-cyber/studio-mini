@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>umfstudio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        body {
+            background: #0f0f0f;
+            color: white;
+        }
+
+        header {
+            text-align: center;
+            padding: 50px 20px;
+            background: linear-gradient(to right, #000, #1a1a1a);
+        }
+
+        header h1 {
+            font-size: 40px;
+        }
+
+        header p {
+            margin-top: 10px;
+            color: #ccc;
+        }
+
+        section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        h2 {
+            margin-bottom: 20px;
+        }
+
+        .galeri {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .galeri img {
+            width: 250px;
+            margin: 10px;
+            border-radius: 15px;
+            transition: 0.3s;
+        }
+
+        .galeri img:hover {
+            transform: scale(1.05);
+        }
+
+        .paket-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .paket {
+            background: #1a1a1a;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 15px;
+            width: 250px;
+        }
+
+        .paket h3 {
+            margin-bottom: 10px;
+        }
+
+        .paket p {
+            color: #ccc;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 20px;
+            background: #25D366;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+        }
+
+        .btn:hover {
+            background: #1ebe5d;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: black;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>umfstudio</h1>
+    <p>Foto aestetik, kekinian & berkualitas</p>
+</header>
+
+<section>
+    <h2>Galeri</h2>
+    <div class="galeri">
+        <img src="https://via.placeholder.com/250">
+        <img src="https://via.placeholder.com/250">
+        <img src="https://via.placeholder.com/250">
+    </div>
+</section>
+
+<section>
+    <h2>Paket Harga</h2>
+    <div class="paket-container">
+        <div class="paket">
+            <h3>Basic</h3>
+            <p>50K - 3 foto</p>
+        </div>
+        <div class="paket">
+            <h3>Premium</h3>
+            <p>100K - 8 foto + edit</p>
+        </div>
+        <div class="paket">
+            <h3>Exclusive</h3>
+            <p>150K - 15 foto + edit + cetak</p>
+        </div>
+    </div>
+
+    <a class="btn" href="https://wa.me/6283848498582">Booking via WhatsApp</a>
+</section>
+
+<footer>
+    <p>© umfstudio</p>
+</footer>
+
+</body>
+</html>
